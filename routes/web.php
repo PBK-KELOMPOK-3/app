@@ -24,3 +24,7 @@ Route::get('/home', function(){
 Route::get('/login', function(){
     return view('login');
 });
+
+Route::get('/bgame', function(){
+    return view('bgame');
+});
