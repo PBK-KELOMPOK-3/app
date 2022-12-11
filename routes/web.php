@@ -18,13 +18,25 @@ Route::get('/', function () {
 });
 
 Route::get('/home', function(){
-    return view('home');
+    return view('home', [
+        "title" => "Home"
+    ]);
 });
 
 Route::get('/login', function(){
-    return view('login');
+    return view('login', [
+        "title" => "Login"
+    ]);
 });
 
 Route::get('/bgame', function(){
-    return view('bgame');
+    return view('bgame', [
+        "title" => "difficulty"
+    ]);
+});
+
+Route::get('/gamep', function(){
+    return view('gamep', [
+        "title" => "Scrambel Word"
+    ]);
 });

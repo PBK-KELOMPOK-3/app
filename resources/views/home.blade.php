@@ -5,8 +5,8 @@
     <nav class="navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">BioFunQ</a>
-            <a href="login"><button type="button" class="btn btn-primary">Login</button>
-        </div></a>
+            <a href="login"><button type="button" class="btn btn-primary">Login</button></a>
+        </div>
 
     </nav>
 </header>
@@ -87,6 +87,7 @@
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
+                    <hr>
                     <div class=" d-grid gap-2 col-6 mx-auto">
                         <a class="btn btn-primary" href="bgame" role="button">Play Game</a>
                     </div>
