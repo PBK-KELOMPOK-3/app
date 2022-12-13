@@ -12,7 +12,7 @@
     <div id="content">
       <div class="container-fluid">
         <div class="desk1">
-          <img src="img/logo.png" alt="" width="30%">
+          <img src="/img/logo.png" alt="" width="30%">
         </div>
 
         <div class="desk2">
@@ -20,7 +20,7 @@
         </div>
 
         <div class="desk3">
-          <h2>Pilih Tingkat Kesulitina Game</h2>
+          <h2>Pilih Tingkat kesulitan Game</h2>
           <hr>
           <div class="container">
             <h5>Jenis game:</h5>
@@ -68,7 +68,7 @@
           <hr>
           <div class="container">
             <div class="d-grid gap-2 d-md-block">
-              <a href="gamep"><button type="button" class="btn btn-primary">Mulai</button></a>
+              <a href="/gamep"><button type="button" class="btn btn-primary">Mulai</button></a>
             </div>
           </div>
         </div>
