@@ -13,7 +13,7 @@
                     <p>Selamat datang di BioFunQ (Biology Fun Quizee) aplikasi pembelejaran interaktif berbasis website yang menyediakan berbagai macam game puzzel untuk mengasah pengetahuan mu seputar ilmu biologi. </p>
                 </div>
                 <div class="desk3">
-                    <h2>Registration</h2>
+                    <h2>Registration form</h2>
                     <form>
                         <div class="mb-3">
                             <label class="form-label">Name</label>
