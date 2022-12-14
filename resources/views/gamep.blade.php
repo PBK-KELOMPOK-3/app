@@ -11,7 +11,7 @@
 <body>
     <div class="contaner">
         
-        <h2>BIOFUNQ | Word Scramble Game</h2>
+        <h2> BIOFUNQ | Word Scramble Game</h2>
         <div class="content">
             <p class="word"></p>
             <div class="details">
