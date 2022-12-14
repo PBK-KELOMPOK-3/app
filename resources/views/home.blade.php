@@ -2,6 +2,7 @@
 
 @section('container')
 
+
 <main>
     <div class="layer1 container-fluid">
         <div id="content">
@@ -47,7 +48,7 @@
                     </div>
                 </div>
                 <div class="desk3">
-                    <p>Mari Bermain !</p>
+                    <p><b>Mari Bermain !</b></p>
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -58,8 +59,8 @@
                             <div class="carousel-item active">
                                 <img src="/img/sw.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block ">
-                                    <h5>WORD SCRAMBEL GAME</h5>
-                                    <p>Some representative placeholder content for the first slide.</p>
+                                    <h5>WORD SCRAMBLE GAME</h5>
+                                    <p>Word scramble merupakan permainan acak kata yang dimana kita harus menebak kata yang diberikan dalam kurun waktu yang tercantum.</p>
 
                                 </div>
                             </div>
@@ -67,7 +68,7 @@
                                 <img src="/img/sw.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>TEKA - TEKI SILANG</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
+                                    <p>Sesuai dengan namanya permainan ini sama halnya dengan Teka Teki Silang pada umumnya yang hanya bedanya TTS ini berlatar belakang materi tenang mata pelajaran.</p>
                                 </div>
                             </div>
                         </div>
