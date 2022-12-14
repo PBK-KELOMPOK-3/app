@@ -1,14 +1,9 @@
 @extends('layouts.main')
 
 @section('container')
-<header>
-  <nav class="navbar">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="home">BioFunQ</a>
-  </nav>
-</header>
+
 <main>
-  <div class="layer1 container-fluid">
+  <div class="layer1 container-fluid ">
     <div id="content">
       <div class="container-fluid">
         <div class="desk1">
@@ -30,7 +25,7 @@
               <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
             <button type="submit" class=" btn btn-primary mb-3">login</button>
-            <div class="mb-3">
+            <!-- <div class="mb-3">
               <label class="form-check-label mb-3" for="exampleCheck1">Login dengan :</label>
               <ul class="nav justify-content-start list-unstyled d-flex">
                 <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="48" height="48">
@@ -40,8 +35,9 @@
                       <use xlink:href="#facebook" />
                     </svg></a></li>
               </ul>
-            </div>
+            </div> -->
           </form>
+          <small class="d-block text-center ">Not Registered? <a href="register">Registration Now!</a></small>
         </div>
       </div>
     </div>

@@ -1,15 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-<header>
-    <nav class="navbar">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/home">BioFunQ</a>
-            <a href="login"><button type="button" class="btn btn-primary">Login</button></a>
-        </div>
 
-    </nav>
-</header>
 <main>
     <div class="layer1 container-fluid">
         <div id="content">

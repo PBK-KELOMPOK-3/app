@@ -30,7 +30,8 @@
         </symbol>
     </svg>
 
-    <div class="container mt-4">
+    <div class="container">
+        @include('partials/header')
         @yield('container')
     </div>
 
