@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DashbioardController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
@@ -25,19 +26,26 @@ Route::get('/', function(){
     ]);
 });
 
-
 Route::get('/bgame', function(){
     return view('bgame', [
         "title" => "difficulty"
     ]);
-});
+})->middleware('auth');
 
 Route::get('/gamep', function(){
     return view('gamep', [
         "title" => "Scrambel Word"
     ]);
-});
+})->middleware('auth');
 
-Route::get('/login', [LoginController::class, 'index']);
+Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 
-Route::get('/register', [RegisterController::class, 'index']); 
+Route::post('/login', [LoginController::class, 'authenticate']);
+Route::post('/logout', [LoginController::class, 'logout']);
+
+
+Route::get('/register', [RegisterController::class, 'creat'])->middleware('guest'); 
+
+Route::post('/register', [RegisterController::class, 'store']); 
+
+Route::get('dashboard', [DashbioardController::class, 'index'])->middleware('auth');

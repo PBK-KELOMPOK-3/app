@@ -5,7 +5,26 @@
 <main>
   <div class="layer1 container-fluid ">
     <div id="content">
+
+
+
       <div class="container-fluid">
+
+        @if(session()->has('success'))
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+          {{ session('success') }}
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        @endif
+
+        @if(session()->has('loginError'))
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+          {{ session('loginError') }}
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        @endif
+
+
         <div class="desk1">
           <img src="img/logo.png" alt="" width="30%">
         </div>
@@ -14,15 +33,20 @@
         </div>
         <div class="desk3">
           <h2>Login</h2>
-          <form>
+          <form action="/login" method="post">
+            @csrf
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">Kami tidak akan memberikan informasi pribadi kepada siapapun.</div>
+              <label for="email" class="form-label">Email address</label>
+              @error('username')
+              <div class="invalid-feedback">
+                {{ $message }}
+              </div>
+              @enderror
+              <input type="email" name="email" class="form-control @error('email') is-invalide @enderror" id="email" autofocus required value="{{ old('email') }}">
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" name="password" class="form-control @error('password') is-invalid @enderror" id="password" required>
             </div>
             <button type="submit" class=" btn btn-primary mb-3">login</button>
             <!-- <div class="mb-3">
