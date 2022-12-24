@@ -16,45 +16,24 @@
 
         <div class="desk3">
           <h2>Pilih Tingkat kesulitan Game</h2>
-          <hr>
-          <div class="container">
-            <h5>Jenis game:</h5>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-              <label class="form-check-label" for="flexCheckDefault">
-                Biologi
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-              <label class="form-check-label" for="flexCheckDefault">
-                Kimia
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-              <label class="form-check-label" for="flexCheckDefault">
-                Fisika
-              </label>
-            </div>
-          </div>
+    
           <hr>
           <div class="container">
             <h5>Tingkat kesulitan: </h5>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="bio_7">
               <label class="form-check-label" for="flexRadioDefault1">
                 Mudah (Kelas 7)
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="bio_8" checked>
               <label class="form-check-label" for="flexRadioDefault2">
                 Sedang (Kelas 8)
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="bio_9">
               <label class="form-check-label" for="flexRadioDefault1">
                 Sulit (Kelas 9)
               </label>
@@ -67,7 +46,7 @@
             </div>
           </div>
         </div>
-
+        <script src="js/words.js"></script>
       </div>
     </div>
   </div>

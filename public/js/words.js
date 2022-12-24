@@ -136,4 +136,34 @@ const soal_bio_9 = [
     {
         hint:"Zat yang tidak dipengaruhi faktor keturunan pada makhluk hidup adalah?",
         word:"Kromosom"
-    },
+    }
+];
+const words =[];
+
+let radioBtns = document.querySelectorAll("input[name='flexRadioDefault']");
+
+let findSelected = () => {
+        if(document.querySelector('input[id=bio_7]:checked')){
+            words.length = 0;
+            Array.prototype.push.apply(words, soal_bio_7);
+            console.log(words);
+        };
+
+        if(document.querySelector('input[id=bio_8]:checked')){
+            words.length = 0;
+            Array.prototype.push.apply(words, soal_bio_8);
+            console.log(words);
+        };
+
+        if(document.querySelector('input[id=bio_9]:checked')){
+            words.length = 0;
+            Array.prototype.push.apply(words, soal_bio_9);
+            console.log(words);
+        };
+    };
+    
+    radioBtns.forEach(radioBtn =>{
+        radioBtn.addEventListener("change",findSelected);
+    });
+
+findSelected();
