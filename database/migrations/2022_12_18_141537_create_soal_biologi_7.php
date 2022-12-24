@@ -13,10 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('soal_fisika_8', function (Blueprint $table) {
+        Schema::create('soal_biologi_7', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('category_id');
             $table->string('soal');
             $table->string('jawaban');
+            $table->timestamps();
         });
     }
 
@@ -27,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('soal_fisika_8');
+        Schema::dropIfExists('soal_biologi_7');
     }
 };

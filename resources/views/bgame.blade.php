@@ -15,7 +15,7 @@
         </div>
 
         <div class="desk3">
-          <h2>Pilih Tingkat kesulitan Game</h2>
+          <!-- <h2>Pilih Tingkat kesulitan Game</h2>
           <hr>
           <div class="container">
             <h5>Jenis game:</h5>
@@ -38,38 +38,77 @@
               </label>
             </div>
           </div>
-          <hr>
+          <hr> -->
           <div class="container">
             <h5>Tingkat kesulitan: </h5>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
               <label class="form-check-label" for="flexRadioDefault1">
-                Mudah (Kelas 7)
+                Biologi (Kelas 7)
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
               <label class="form-check-label" for="flexRadioDefault2">
-                Sedang (Kelas 8)
+                Biologi (Kelas 8)
               </label>
             </div>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
               <label class="form-check-label" for="flexRadioDefault1">
-                Sulit (Kelas 9)
+                Biologi (Kelas 9)
+              </label>
+            </div>
+            <hr>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Fisika (Kelas 7)
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+              <label class="form-check-label" for="flexRadioDefault2">
+                Fisika (Kelas 8)
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Fisika (Kelas 9)
+              </label>
+            </div>
+            <hr>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Kimia (Kelas 7)
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+              <label class="form-check-label" for="flexRadioDefault2">
+                Kimia (Kelas 8)
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Kimia (Kelas 9)
               </label>
             </div>
           </div>
-          <hr>
-          <div class="container">
-            <div class="d-grid gap-2 d-md-block">
-              <a href="/gamep"><button type="button" class="btn btn-primary">Mulai</button></a>
-            </div>
+        </div>
+        <hr>
+        <div class="container">
+          <div class="d-grid gap-2 d-md-block">
+            <a href="/gamep"><button type="button" class="btn btn-primary">Mulai</button></a>
           </div>
         </div>
-
       </div>
+
     </div>
+  </div>
   </div>
 
 </main>

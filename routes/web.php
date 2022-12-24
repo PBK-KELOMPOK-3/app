@@ -1,9 +1,11 @@
 <?php
 
-use App\Http\Controllers\DashbioardController;
+use App\Http\Controllers\Bgame;
+use App\Http\Controllers\Gamep;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\DashbioardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,23 +22,16 @@ use App\Http\Controllers\RegisterController;
 //     return view('welcome');
 // });
 
-Route::get('/', function(){
+Route::get('/', function () {
     return view('home', [
         "title" => "Home"
     ]);
 });
 
-Route::get('/bgame', function(){
-    return view('bgame', [
-        "title" => "difficulty"
-    ]);
-})->middleware('auth');
+Route::get('/bgame', [Bgame::class, 'index'])->middleware('auth');
 
-Route::get('/gamep', function(){
-    return view('gamep', [
-        "title" => "Scrambel Word"
-    ]);
-})->middleware('auth');
+
+Route::get('/gamep', [Gamep::class, 'index'])->middleware('auth');
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 
@@ -44,8 +39,8 @@ Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
 
 
-Route::get('/register', [RegisterController::class, 'creat'])->middleware('guest'); 
+Route::get('/register', [RegisterController::class, 'creat'])->middleware('guest');
 
-Route::post('/register', [RegisterController::class, 'store']); 
+Route::post('/register', [RegisterController::class, 'store']);
 
 Route::get('dashboard', [DashbioardController::class, 'index'])->middleware('auth');

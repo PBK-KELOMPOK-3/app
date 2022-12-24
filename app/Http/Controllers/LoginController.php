@@ -14,17 +14,17 @@ class LoginController extends Controller
             "title" => "Login"
         ]);
     }
-    
+
     public function authenticate(Request $request)
     {
-       $credentials = $request -> validate([
+        $credentials = $request->validate([
             'email' => 'required|email:dns',
-            'password' => 'required'        
+            'password' => 'required'
         ]);
 
-        if(Auth::attempt($credentials)){
+        if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
-            return redirect()->intended('/dashboard');
+            return redirect()->intended('/');
         };
 
         return back()->with('loginError', 'Login failed!');
@@ -33,14 +33,11 @@ class LoginController extends Controller
     public function logout(Request $request)
     {
         Auth::logout();
- 
+
         $request->session()->invalidate();
-     
+
         $request->session()->regenerateToken();
-     
+
         return redirect('/login');
     }
-
-    
-    
 }

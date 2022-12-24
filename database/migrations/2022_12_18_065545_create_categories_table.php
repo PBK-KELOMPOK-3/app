@@ -13,10 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('soal_kimia_8', function (Blueprint $table) {
+        Schema::create('categories', function (Blueprint $table) {
             $table->id();
-            $table->string('soal');
-            $table->string('jawaban');
+            $table->string('nama')->unique();
+            $table->timestamps(); 
         });
     }
 
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('soal_kimia_8');
+        Schema::dropIfExists('categories');
     }
 };
