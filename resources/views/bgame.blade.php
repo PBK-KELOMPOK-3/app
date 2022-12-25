@@ -41,6 +41,42 @@
                   Biologi (Kelas 9)
                 </label>
               </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="soal" id="kim_7" value="kim_7" checked>
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Kimia (Kelas 7)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="soal" id="kim_8" value="kim_8">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Kimia (Kelas 8)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="soal" id="kim_9" value="kim_9">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Kimia (Kelas 9)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="soal" id="fis_7" value="fis_7" checked>
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Fisika (Kelas 7)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="soal" id="fis_8" value="fis_8">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Fisika (Kelas 8)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="soal" id="fis_9" value="fis_9">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Fisika (Kelas 9)
+                </label>
+              </div>
             </fieldset>
 
             <hr>

@@ -48,6 +48,18 @@ const getWords = () => {
         return soal_bio_8
     }else if(codeSoal == "bio_9"){
         return soal_bio_9
+    }else if (codeSoal == "kim_7"){
+        return soal_kim_7
+    }else if (codeSoal == "kim_8"){
+        return soal_kim_8
+    }else if(codeSoal == "kim_9"){
+        return soal_kim_9
+    }else if (codeSoal == "fis_7"){
+        return soal_fis_7
+    }else if (codeSoal == "fis_8"){
+        return soal_fis_8
+    }else if(codeSoal == "fis_9"){
+        return soal_fis_9
     }else {
         alert("code soal tidak valid")
         window.location.href = '/bgame'

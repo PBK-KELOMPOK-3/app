@@ -359,7 +359,7 @@ const soal_bio_9 = [
     }
 ];
 
-const soal_kimia_7 =[
+const soal_kim_7 =[
     {
         hint:"Zat yang memiliki susunan dan komposisi yang tetap adalah zat ?",
         word:"Campuran"
@@ -479,5 +479,615 @@ const soal_kimia_7 =[
     {
         hint:"Unsur yang ditambahkan pada pasta gigi untuk mencegah gigi berlubang adalah ? ",
         word:"Flourin"
+    }
+];
+
+const soal_kim_8 =[
+    {
+        hint:"Arah akar menembus tanah disebut gerak ?",
+        word:"Geotropisme"
+    },
+    {
+        hint:"Gerak yang tidak disebabkan rangsang dari luar disebut gerak …. ",
+        word:"Endonom"
+    },
+    {
+        hint:"Hewan ini termasuk hama ?",
+        word:"Wereng"
+    },
+    {
+        hint:"Untuk membasmi tikus bahan kimia yang digunakan adalah ?",
+        word:"Rodentisida"
+    },
+    {
+        hint:"Proton dan neutron menentukan massa dari suatu ?",
+        word:"Atom"
+    },
+    {
+        hint:"Atom atau Kumpulan atom yang bermuatan listrik disebut ?",
+        word:"Proton"
+    },
+    {
+        hint:"Pergiliran keturunan yang melibatkan fase gametofit dan sporofit pada tumbuhan lumut disebut ?",
+        word:"Metagenesis"
+    },
+    {
+        hint:"Faktor internal yang mempengaruhi pertumbuhan dan perkebangan makhluk hidup adalah ?",
+        word:"Gen"
+    },
+    {
+        hint:"Tahapan ini tidak dialami oleh metamorfosis tidak sempurna",
+        word:"Pupa"
+    },
+    {
+        hint:"Telur – Larva – Pupa – Imago merupakan tahap metaformosis hewan ?",
+        word:"Kupu Kupu"
+    },
+    {
+        hint:"Kebutuhan nutrisi selama masa perkembangan embrio di dalam janin diperoleh melalui ?",
+        word:"Plasenta"
+    },
+    {
+        hint:"Bagian dari rahim yang befungsi menyalurkan makanan ke rahim",
+        word:"Plasenta"
+    },
+    {
+        hint:"Hewan ini memiliki rangka eksoskeleton",
+        word:"Udang"
+    },
+    {
+        hint:"Tulang yang dimiliki oleh hidung dan daun telinga ",
+        word:"Tulang Rawan"
+    },
+    {
+        hint:"Kandungan bahan kimia yang terdapat di dalam sabun",
+        word:"Natrium Palmitat"
+    },
+    {
+        hint:"Natrium hipoklorit digunakan sebagai bahan...",
+        word:"Pemutih"
+    },
+    {
+        hint:"Aroma pisang dapat ditimbulkan dari bahan kimia ",
+        word:"Isoamil Asetat"
+    },
+    {
+        hint:"Disebut sebagai bahan pembasmi serangga",
+        word:"Insektisida"
+    },
+    {
+        hint:"Zat aditif yang terdapat didalam rokok",
+        word:"Nikotin"
+    },
+    {
+        hint:"Pemberi warna kuning pada makanan",
+        word:"Tartrazin"
+    },
+    {
+        hint:"Zat yang termasuk dalam psikotropika",
+        word:"Amfetamin"
+    },
+    {
+        hint:"Sebagai bahan pengawet daging",
+        word:"Natrium Nitrit"
+    },
+    {
+        hint:"Tenakan darah menjadi rendah merupakan penyalah gunaan dari ",
+        word:"Heroin"
+    },
+    {
+        hint:"Amfetamin digunakan untuk pengobatan",
+        word:"Parkinson"
+    },
+    {
+        hint:"Cresol merupakan bahan kimia yang bersifat",
+        word:"Karsinogenik"
+    },
+    {
+        hint:"Zat beracun dan merusak kulit",
+        word:"Fenol"
+    },
+    {
+        hint:"Zat adiktif yang digunakan untuk kemoterapi pada pasien kanker",
+        word:"Ganja"
+    },
+    {
+        hint:"Bahan kimia untuk menteralkan asam lambung termasuk kategori ",
+        word:"Antacid"
+    },
+    {
+        hint:"Daun jati dimanfaatkan untuk pewarna makanan berwarna",
+        word:"Merah"
+    },
+    {
+        hint:"Kandungan kimia dalam sabun mandi",
+        word:"Gliserin"
+    }
+];
+
+const soal_kim_9 =[
+    {
+        hint:"Hg, Ag, Pb, Au termasuk ke dalam golongan",
+        word:"Unsur"
+    },
+    {
+        hint:"H, Li, Uuh termasuk ke dalam golongan",
+        word:"Senyawa"
+    },
+    {
+        hint:"Senyawa yang tersusun oleh unsur sendirinya",
+        word:"Monoatomik"
+    },
+    {
+        hint:"Es krim, Kabut dan asap termasuk dalam",
+        word:"Koloid"
+    },
+    {
+        hint:"Gerak acak partikel koloid",
+        word:"Gerak Brown"
+    },
+    {
+        hint:"Pengendapan partikel partikel koloid sehingga fase terdispersinya terpisah dari medium pendispensersinya ",
+        word:"Koagulasi"
+    },
+    {
+        hint:"Zat campuran yang terlihat serbasama, tidak keruh dan tidak ada endapan ",
+        word:"Larutan"
+    },
+    {
+        hint:"Proses penjernihan air dengan menggunakan tawas ",
+        word:"Adsorpsi"
+    },
+    {
+        hint:"Zat yang digunakan sebagai koloid pelindung pada es krim",
+        word:"Gelatin"
+    },
+    {
+        hint:"Proses pencucian darah dengan sifat koloid",
+        word:"Dialisis"
+    },
+    {
+        hint:"Sorot lampu mobil di jalan yan berkabut dan berasap merupakan efek ",
+        word:"Tyndall"
+    },
+    {
+        hint:"Salah satu logam berbentuk cair",
+        word:"Merkuri"
+    },
+    {
+        hint:"Argon termasuk dalam golongan",
+        word:"Gas Mulia"
+    },
+    {
+        hint:"Berasa pahit dan memiliki ph lebih dari 7",
+        word:"Basa"
+    },
+    {
+        hint:"Mempunyai 4 elektron valensi yang mampu membentuk ikatan kovalen yang kuat",
+        word:"Karbon"
+    },
+    {
+        hint:"CH4 dan C2H4 Termasuk golongan senyawa",
+        word:"Hidrokarbon"
+    },
+    {
+        hint:"C2H6 , C5H12, C7H16 Merupakan",
+        word:"Alkana"
+    },
+    {
+        hint:"Menghasilkan zat yang sama jika terbakar sempurna dalam oksigen",
+        word:"Isomer"
+    },
+    {
+        hint:"Rumus kimia CH4 adalah",
+        word:"Metana"
+    },
+    {
+        hint:"Gas berbahaya yang dihasilkan akibat pembakaran tidak sempurna dari minyak bumi ",
+        word:"Karbon monoksida"
+    },
+    {
+        hint:"Semakin tinggi, laju reaksi semakin cepat merupakan pengaruh dari",
+        word:"Suhu"
+    },
+    {
+        hint:"Cabang ilmu kimia yang berperan untuk mempelajari sifat fisis",
+        word:"Kimia Fisika"
+    },
+    {
+        hint:"Sifat yang mampu mengikis kotoran, jarigan , tumbuhan , jaringan hewan, jaringan manusia, maupun logam",
+        word:"Korosifitas"
+    },
+    {
+        hint:"Kemampuan suatu bahan untuk mempertahankan diri dari perubahan atau dekomposisi ketika terkena udara, panas, cahaya atau reaksi kimia lainnya ",
+        word:"Kestabilan"
+    },
+    {
+        hint:"H2SO4 Merupakan elektrolit",
+        word:"Kuat"
+    },
+    {
+        hint:"AICI3 Termasuk dalam bentuk",
+        word:"Senyawa"
+    },
+    {
+        hint:"Pembunuh kuman yang terdapat pada pembersih lantai termasuk ke dalam senyawa ",
+        word:"Karbol"
+    },
+    {
+        hint:"Bahan bahan kimia alami",
+        word:"Gula"
+    },
+    {
+        hint:"Sifat sabun dan deterjen yan dapat melarutkan lemak dan minyak ",
+        word:"Hidrofilik"
+    },
+    {
+        hint:"Pestisida untuk membasmi rumput perkebunan",
+        word:"Herbisida"
+    }
+];
+
+const soal_fis_9=[
+    {
+        hint:"Jenis listrik yang tidak mengalir dan disebabkan gesekan atau gosokan dua buah benda dengan muatan listrik yang berbeda.",
+        word:"Statis"
+    },
+    {
+        hint:"Berikut adalah jalannya impuls dari gerak sadar. Isilah titik titk.eseptor >> neuron sensorik >> otak >> neuron motorik>>….",
+        word:"Efektor"
+    },
+    {
+        hint:"Berikut adalah jalannya impuls dari gerak reflek. Isilah titik titk.Impuls dari reseptor >> neuron sensorik >> neuron ….. >> sumsum tulang belakang >> neuron motorik >> efektor",
+        word:"Konektor"
+    },
+    {
+        hint:"Muatan atom yang terletak pada kulit atom.",
+        word:"Elektron"
+    },
+    {
+        hint:"Ketika kaca digosok dengan kain sutra, elektron dari batang kaca bermigrasi ke kain sutra sehingga batang kaca bermuatan…",
+        word:"Positif"
+    },
+    {
+        hint:"Rumus arus listrik (hukum ohm)",
+        word:"V=I.R"
+    },
+    {
+        hint:"“Interaksi muatan listrik yang sejenis akan tolak-menolak, sedangkan muatan yang berlainan jenis akan tarik-menarik” merupakan pengertian dari hukum …",
+        word:"Coulomb"
+    },
+    {
+        hint:"Pada rangkaian seri diketahui R1 = 82 ohm, R2=99 ohm dan R3= 67 ohm. Nilai resistor penggantinya adalah …. ohm",
+        word:"248"
+    },
+    {
+        hint:"Pada rangkaian paralel diketahui R1 = 7 ohm dan R2= 2 ohm. Nilai resistor penggantinya adalah …. ohm",
+        word:"14/9"
+    },
+    {
+        hint:"Teknik untuk melapisi satu logam dengan logam lainnya untuk menghasilkan logam dengan kualitas yang lebih baik",
+        word:"Electroplating"
+    },
+    {
+        hint:"Sebuah tempat laundry menyalakan 5 mesin cuci 210 watt selama 7 jam. Berapa kWh energi yang dipakai dalam sehari? ….kWh.",
+        word:"7350"
+    },
+    {
+        hint:"Jenis rangkaian listrik yang hambatannya disusun secara bertingkat atau bercabang.",
+        word:"Paralel"
+    },
+    {
+        hint:"Teknik pembuatan magnet dengan mendekatkan benda bermuatan listrik ke benda yang tidak bermuatan listrik.",
+        word:"Konduksi "
+    },
+    {
+        hint:"Gaya yang timbul karena adanya arus listrik di dalam suatu medan magnet.",
+        word:"Gaya Lorentz"
+    },
+    {
+        hint:"Magnet dapat didapatkan pada batuan yang mengandung…",
+        word:"Fe3O4"
+    },
+    {
+        hint:"Diketahui pada sebuah travo, Vp =10V, Vs = 20V, Ip = 348 A. Arus listrik yang mengalir pada kumparan sekunder adalah … A",
+        word:"194"
+    },
+    {
+        hint:"Benda yang dapat ditarik kuat oleh magnet, seperti besi dan baja, disebut…",
+        word:"Feromagnetik"
+    },
+    {
+        hint:"Ketika dua kutub magnet yang sama berdekatan, maka kedua kutub itu akan … satu sama lain.",
+        word:"Menolak"
+    },
+    {
+        hint:"“Atom adalah suatu bagian yang paling kecil dari sebuah materi dan bagian itu tidak dapat dibagi-bagi lagi” Merupakan teori atom milik…",
+        word:"Dalton"
+    },
+    {
+        hint:"Natrium memiliki massa 23 dan nomor atom 11. Jumlah neutron Natrium adalah…",
+        word:"12"
+    },
+    {
+        hint:"Senyawa yang berfungsi untuk mengaktifkan suatu zat agar dapat berinteraksi. Menghasilkan busa.",
+        word:"Surfaktan"
+    },
+    {
+        hint:"Zat dalam alat pendingin udara (AC) yang dapat menipiskan ozon.",
+        word:"Chlorofluorocarbon"
+    },
+    {
+        hint:"Istilah untuk molekul yang terdiri dari dua atom",
+        word:"Diatomik"
+    },
+    {
+        hint:"Nama dapur untuk senyawa yang dilambangkan dengan CH3COOH.",
+        word:"Cuka"
+    },
+    {
+        hint:"Salah satu jenis plastik yang dapat dengan mudah dilunakkan dengan panas.",
+        word:"Termoplastik"
+    },
+    {
+        hint:"Salah satu prinsip dalam teknologi ramah lingkungan dengan cara mengurangi kegiatan yang menghasilkan sampah.",
+        word:"Reduce"
+    },
+    {
+        hint:"Bahan yang dicampur ke bahan kaca agar kaca menjadi sangat kuat.",
+        word:"Boraks"
+    },
+    {
+        hint:"Energi dari dalam lapisan bumi yang dapat dimanfaatkan menjadi penyedia energi listrik.",
+        word:"Geothermal"
+    },
+    {
+        hint:"Organisme yang membantu menguraikan materi organik.",
+        word:"Dekomposer"
+    }
+];
+const soal_fis_8=[
+    {
+        hint:"Rumus kelajuan",
+        word:" v=s/t"
+    },
+    {
+        hint:"“Jika resultan gaya pada suatu benda sama dengan nol, maka benda yang diam akan tetap diam dan benda yang bergerak akan tetap bergerak dengan kecepatan tetap selama tidak ada gaya eksternal yang mengenainya” Adalah salah satu hukum newton yang disebut juga hukum…        ",
+        word:"Inersia"
+    },
+    {
+        hint:"Hukum II Newton berbunyi “____ dari suatu benda akan sebanding dengan jumlah gaya (resultan gaya) yang bekerja pada benda tersebut dan berbanding terbalik dengan massanya. ",
+        word:"Percepatan"
+    },
+    {
+        hint:"Gaya tarik-menarik yang terjadi antara semua partikel yang memiliki massa.",
+        word:"gravitasi"
+    },
+    {
+        hint:"Gaya yang terjadi karena interaksi antara permukaan 2 benda.",
+        word:"Gesek"
+    },
+    {
+        hint:"Rumus gaya gravitasi",
+        word:"W=m.g"
+    },
+    {
+        hint:"Rumus Daya.",
+        word:"P=W/t"
+    },
+    {
+        hint:"Rumus Usaha",
+        word:" W=F.s"
+    },
+    {
+        hint:"Gerobak, gunting, alat pemecah kemiri merupakan alat yang berkerja berdasarkan prisip",
+        word:"Tuas"
+    },
+    {
+        hint:"Katrol yang digunakan pada lift gedung bertingkat.",
+        word:"Majemuk"
+    },
+    {
+        hint:"Rahang gigi merupakan prinsip pengungkit ke…",
+        word:"Tiga"
+    },
+    {
+        hint:"Proses perpindahan molekul air atau zat pelarut dari pelarut berkonsentrasi rendah ke dalam bentuk larutan berkonsentrasi tinggi",
+        word:"Osmosis"
+    },
+    {
+        hint:"Proses perpindahan molekul air atau zat pelarut dari pelarut berkonsentrasi tinggi ke dalam bentuk larutan berkonsentrasi rendah",
+        word:"Difusi"
+    },
+    {
+        hint:"Larutan yang memiliki konsentrasi sama atau seimbang.",
+        word:"Isotonik"
+    },
+    {
+        hint:"Tekanan dari zat cair ke semua arah pada suatu benda",
+        word:"Hidrostatis"
+    },
+    {
+        hint:"Hukum yang berbunyi “Suatu benda yang dicelupkan sebagian atau seluruhnya ke dalam fluida, akan mengalami gaya ke atas yang besarnya sama dengan berat fluida yang dipindahkan oleh benda tersebut.”",
+        word:"Archimedes"
+    },
+    {
+        hint:"Alat pengukur tekanan udara.",
+        word:"Barometer"
+    },
+    {
+        hint:"Hukum yang menyatakan “Pada suhu tetap, tekanan gas di dalam ruang tertutup berbanding terbalik dengan volumenya”",
+        word:"Boyle"
+    },
+    {
+        hint:"Berdasarkan arah rambatnya, gelombang cahaya, gelombang permukaan air dan gelombang pada tali merupakan jenis gelombang….",
+        word:"Transversal"
+    },
+    ,
+    {
+        hint:"Jenis Gelombang yang arah getarnya searah (paralel) dengan arah rambatannya",
+        word:"Longitudinal"
+    },
+    {
+        hint:"Bunyi pantul yang dihasilkan setelah bunyi asli keluar.",
+        word:"Gema"
+    },
+    {
+        hint:"Peristiwa gerak bolak-balik secara teratur melalui titik kesetimbangan",
+        word:"Getaran"
+    },
+    {
+        hint:"Rumus Periode getaran",
+        word:"T=t/n"
+    },
+    {
+        hint:"Rumus frekuensi",
+        word:"f=n/t"
+    },
+    {
+        hint:"Jenis cermin yang sifat bayangannya maya (Bayangan berada dibelakan cermin) dan tegak/tidak terbalik",
+        word:"Cembung"
+    },
+    {
+        hint:"Jenis cermin yang digunakan sebagau reflektor pada lampu mobil dan senter",
+        word:"Cekung"
+    },
+    {
+        hint:"Jenis cermin yang sifat bayangan yang terbentuk adalah khayal, tegak, dan sama besar",
+        word:"Datar"
+    },
+    {
+        hint:"Bagian mata yang mengatur jumlah cahaya yang masuk ke mata",
+        word:"Lensa"
+    },
+    {
+        hint:"Gangguan pengelihatan dimana bayangan jatuh dibelakang retina sehingga harus menggunakan kacamata lensa cembung. Nama lainnya adalah rabun dekat.",
+        word:"Hypermetropia"
+    },
+    {
+        hint:"Alat optik yang digunakan untuk melihat benda tak kasat mata.",
+        word:"Mikroskop"
+    }
+];
+
+const soal_fis_7=[
+    {
+        hint:"Satuan yang mengukur Pascal",
+        word:"Pascal"
+    },
+    {
+        hint:"Nama alat ukur yang dapat mengukur suhu.",
+        word:"Termometer"
+    },
+    {
+        hint:"Nama alat yang mengukur kecepatan.",
+        word:"Speedometer"
+    },
+    {
+        hint:"Satuan SI yang digunakan untuk menghitung intensitas cahaya.",
+        word:"Candela"
+    },
+    {
+        hint:"Skala ____.bagian dari jangka sorong yang fungsinya untuk menambahkan tingkat akurasi ekstra pada pengukuran.",
+        word:"Nonius"
+    },
+    {
+        hint:"Jenis campuran antara dua zat atau lebih dimana partikel-partikel penyusun tidak dapat dibedakan lagi.",
+        word:"Homogen"
+    },
+    {
+        hint:"Sifat Unsur Non-logam dimana unsur non-logam tidak dapat menghantarkan listrik.",
+        word:"Isolator"
+    },
+    {
+        hint:"Bagian zat yang dapat dipisahkan menjadi atom dan terdiri lebih dari satu jenis unsur yang sejenis.  ",
+        word:"Molekul"
+    },
+    {
+        hint:"Teknik pemisahan campuran yang prosesnya dengan memisahkan campuran berdasarkan perbedaan ukuran partikel.",
+        word:"Filtrasi"
+    },
+    {
+        hint:"Proses terbentuknya salju merupakan contoh perubahan bentuk zat secara….",
+        word:"Fisika"
+    },
+    {
+        hint:"Proses pertambahan ukuran (panjang, luas, atau volume) suatu zat karena dipanaskan.",
+        word:"Pemuaian"
+    },
+    {
+        hint:"Skala termometer yang titik bekunya 32 derajat",
+        word:"Fahrenheit"
+    },
+    {
+        hint:"Alat yang digunakan untuk menyelidiki pemuaian pada benda padat.",
+        word:"Musschenbroek"
+    },
+    {
+        hint:"Jenis perpindahan kalor secara mengalir, terjadi disertai dengan perpindahan zat perantara        ",
+        word:"Konveksi"
+    },
+    {
+        hint:"Perubahan wujud gas dari zat padat ke zat gas.",
+        word:"Menyublim"
+    },
+    {
+        hint:"Energi yang dimiliki suatu benda ketika sedang bergerak",
+        word:"Kinetik"
+    },
+    {
+        hint:"E = m.g.h merupakan rumus untuk menghitung Energi…",
+        word:"Potensial"
+    },
+    {
+        hint:"Salah satu alat yang dapat mengubah energi gerak menjadi listrik.",
+        word:"Dinamo"
+    },
+    {
+        hint:"Salah satu proses pengubahan energi cahaya menjadi energi kimia.",
+        word:"Fotosintesis"
+    },
+    {
+        hint:"Bahan bakar yang diproduksi dari bahan organik.",
+        word:"Biofuel"
+    },
+    {
+        hint:"Lapisan bumi erdapat pada kedalaman 2900-5200km dalam bumi dan terdiri dari material cari.",
+        word:"Inti bumi"
+    },
+    {
+        hint:"Lapisan bumi yang disebut juga astenosfer dan tebalnya 2900 km",
+        word:"Mantel"
+    },
+    {
+        hint:"Lapisan atmosfer yang paling dekat dengan bumi",
+        word:"Troposfer"
+    },
+    {
+        hint:"Gempa bumi yang terjadi karena aktivitas magma, terjadi sebelum gunung meletus.",
+        word:"Vulkanik"
+    },
+    {
+        hint:"Lapisan atmosfer yang didalamnya terdapat lapisan ozon",
+        word:"Stratosfer"
+    },
+    {
+        hint:"Planet di tata surya yang berwarna abu-abu, 57 juta km dari matahari dan merupakan planet terkecil.",
+        word:"Merkurius"
+    },
+    {
+        hint:"Planet berwarna biru muda, merupakan planet terdingin dan memiliki cincin vertikal",
+        word:"Uranus"
+    },{
+        hint:"Batu-batuan yang melayan di luar angkasa",
+        word:"Meteoroid"
+    },
+    {
+        hint:"Fase bulan pada hari ke – 8 dan hari ke-21 sejak bulan baru",
+        word:"Perbani"
+    },
+    {
+        hint:"Lapisan bawah atmosfer matahari",
+        word:"Kromosfer"
     }
 ];
