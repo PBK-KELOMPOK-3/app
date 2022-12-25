@@ -58,18 +58,11 @@
                         <div class="carousel-inner ">
                             <div class="carousel-item active">
                                 <img src="/img/sw.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block ">
-                                    <h5>WORD SCRAMBLE GAME</h5>
-                                    <p>Word scramble merupakan permainan acak kata yang dimana kita harus menebak kata yang diberikan dalam kurun waktu yang tercantum.</p>
-
-                                </div>
+                
                             </div>
                             <div class="carousel-item">
                                 <img src="/img/sw.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>TEKA - TEKI SILANG</h5>
-                                    <p>Sesuai dengan namanya permainan ini sama halnya dengan Teka Teki Silang pada umumnya yang hanya bedanya TTS ini berlatar belakang materi tenang mata pelajaran.</p>
-                                </div>
+                            
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
