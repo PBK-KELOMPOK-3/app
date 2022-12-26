@@ -11,7 +11,7 @@
         </div>
 
         <div class="desk2">
-          <p>Selamat datang di BioFunQ (Biology Fun Quizee) aplikasi pembelejaran interaktif berbasis website yang menyediakan berbagai macam game puzzel untuk mengasah pengetahuan mu seputar ilmu biologi. </p>
+          <p>Selamat datang di SCIENCEFUNQ (Science Fun Quizee) aplikasi pembelejaran interaktif berbasis website yang menyediakan berbagai macam game puzzel untuk mengasah pengetahuan mu seputar ilmu biologi. </p>
         </div>
 
         <div class="desk3">
@@ -42,7 +42,7 @@
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="soal" id="kim_7" value="kim_7" checked>
+                <input class="form-check-input" type="radio" name="soal" id="kim_7" value="kim_7">
                 <label class="form-check-label" for="flexRadioDefault1">
                   Kimia (Kelas 7)
                 </label>
@@ -60,7 +60,7 @@
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="soal" id="fis_7" value="fis_7" checked>
+                <input class="form-check-input" type="radio" name="soal" id="fis_7" value="fis_7">
                 <label class="form-check-label" for="flexRadioDefault1">
                   Fisika (Kelas 7)
                 </label>

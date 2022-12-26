@@ -11,7 +11,7 @@
                     <img src="/img/logo.png" alt="" width="30%">
                 </div>
                 <div class="desk2">
-                    <p>Selamat datang di BioFunQ (Biology Fun Quizee) aplikasi pembelajaran interaktif berbasis website yang menyediakan berbagai macam game puzzel untuk mengasah pengetahuan mu seputar ilmu biologi. </p>
+                    <p>Selamat datang di SCIENCEFUNQ (Science Fun Quizee) aplikasi pembelajaran interaktif berbasis website yang menyediakan berbagai macam game puzzel untuk mengasah pengetahuan mu seputar ilmu biologi. </p>
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Cara Main
@@ -27,9 +27,9 @@
                                 </div>
                                 <div class="modal-body">
                                     <h4>Step 1</h4>
-                                    <p>Untuk bermain dalam website BIOFUNQ, hal pertama yang harus dilakukan adalah memiliki sebuah akun jika anda belum meiliki sebuah akun maka anda dapat membuat akun dengan cara mengklik tombol login pada bagian pojok kanan atas.</p>
-                                    <p>Setelah di klik maka anda akan langsung disuruh untuk melakukan login, Kita lewatkan saja bagian login ini dan langsung mengarah ke bagian bawah. Dalam website BIOFUNQ kami menerima 2 metode pendaftaran, yaitu Google dan Facebook</p>
-                                    <p>Pilihlah salah satu metode pendaftaran untuk mendafarkan diri anda dalam website BIOFUNQ. Dan bagi kalian yang sudah memiliki sebuah akun maka kalian langsung dapat melakukan login dengan cara yang sama.</p>
+                                    <p>Untuk bermain dalam website SCIENCEFUNQ, hal pertama yang harus dilakukan adalah memiliki sebuah akun jika anda belum meiliki sebuah akun maka anda dapat membuat akun dengan cara mengklik tombol login pada bagian pojok kanan atas.</p>
+                                    <p>Setelah di klik maka anda akan langsung disuruh untuk melakukan login, Kita lewatkan saja bagian login ini dan langsung mengarah ke bagian bawah. Dalam website SCIENCEFUNQ kami menerima 2 metode pendaftaran, yaitu Google dan Facebook</p>
+                                    <p>Pilihlah salah satu metode pendaftaran untuk mendafarkan diri anda dalam website SCIENCEFUNQ. Dan bagi kalian yang sudah memiliki sebuah akun maka kalian langsung dapat melakukan login dengan cara yang sama.</p>
                                     <hr>
                                     <h4>Step 2</h4>
                                     <p>Jika sudah melakukan registrasi dan login, selanjutnya kalian dapat memilih permainan yang ingin kalian mainkan di website ini kami dalam website ini kami menyediakan dua buah permainan, yaitu word scramble dan Teka Teki Silang.</p>

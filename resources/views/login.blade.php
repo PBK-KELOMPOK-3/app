@@ -29,7 +29,7 @@
           <img src="img/logo.png" alt="" width="30%">
         </div>
         <div class="desk2">
-          <p>Selamat datang di BioFunQ (Biology Fun Quizee) aplikasi pembelejaran interaktif berbasis website yang menyediakan berbagai macam game puzzel untuk mengasah pengetahuan mu seputar ilmu biologi. </p>
+          <p>Selamat datang di SCIENCEFUNQ (Science Fun Quizee) aplikasi pembelejaran interaktif berbasis website yang menyediakan berbagai macam game puzzel untuk mengasah pengetahuan mu seputar ilmu biologi. </p>
         </div>
         <div class="desk3">
           <h2>Login</h2>
